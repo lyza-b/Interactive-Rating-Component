@@ -1,0 +1,28 @@
+*, 
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    background: $neutralVeryDarkBlue;
+    color: $neutralWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+
+    height: 100vh;
+    width: 100vw;
+}
+button {
+    outline: 0;
+    border: 0;
+}

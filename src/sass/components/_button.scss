@@ -1,0 +1,18 @@
+.button-container {
+    @include flexCenter;
+}
+.submit {
+    background-color: $primaryColor;
+    color: $neutralWhite;
+    border-end-end-radius: none;
+    padding: 1.5rem 0;
+    border-radius: 2.2rem;
+    width: 100%;
+
+    transition: $transition;
+}
+.submit:hover {
+    cursor: pointer;
+    background-color: $neutralWhite;
+    color: $primaryColor;
+}

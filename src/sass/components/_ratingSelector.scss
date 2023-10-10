@@ -1,0 +1,11 @@
+.ratings {
+    place-items: center;
+    &__numbers {
+        transition: $transition;
+        cursor: pointer;
+        @include boxStyles; 
+        &:hover {
+            background-color: $primaryColor;
+        }
+    }
+}

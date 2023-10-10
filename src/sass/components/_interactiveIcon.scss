@@ -1,0 +1,8 @@
+.interactive {
+    @include flexCenter;
+    @include boxStyles;
+
+    &__icon {
+
+    }
+}
